@@ -15,13 +15,18 @@ describe Roman do
       roman.convert(1).should == 'I'
     end
 
+    it '2 should return II' do
+      roman.convert(2).should == 'II'
+    end
+
+    it '3 should return III' do
+      roman.convert(3).should == 'III'
+    end
+
     it '5 should return V' do
       roman.convert(5).should == 'V'
     end
 
-    #it '2 should return II' do
-    #  roman.convert(2).should == 'II'
-    #end
 
   end
 

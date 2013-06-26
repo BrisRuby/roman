@@ -2,8 +2,15 @@ class Roman
 
   def convert number
 
-    return 'I' if number == 1
-    'V'
+    case number
+      when 1
+        'I'
+      when 2
+        'II'
+      else
+        'V'
+    end
+
   end
 
 end
