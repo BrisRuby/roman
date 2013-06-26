@@ -27,6 +27,16 @@ describe Roman do
       roman.convert(5).should == 'V'
     end
 
+    it '10 should return X' do
+      roman.convert(10).should == 'X'
+    end
+
+    it '20 should return XX' do
+      roman.convert(20).should == 'XX'
+    end
+
+
+
 
   end
 
