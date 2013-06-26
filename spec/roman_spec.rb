@@ -31,6 +31,10 @@ describe Roman do
       roman.convert(10).should == 'X'
     end
 
+    it '11 should return XI' do
+      roman.convert(11).should == 'XI'
+    end
+
     it '20 should return XX' do
       roman.convert(20).should == 'XX'
     end
