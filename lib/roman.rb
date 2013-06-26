@@ -1,7 +1,9 @@
 class Roman
 
   def convert number
-    'I'
+
+    return 'I' if number == 1
+    'V'
   end
 
 end
